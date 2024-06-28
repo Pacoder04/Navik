@@ -82,7 +82,7 @@ router.post('/login', async (req, res) => {
       return res.status(401).json({ message: 'Invalid password' });
     }
 
-   
+    //potpisujemo token sa user_id-em
     const token = jwt.sign({ sub: user.user_id }, config.serverSecretKey, { expiresIn: '1h' });
     res.status(200).json({ token });
   } catch (err) {

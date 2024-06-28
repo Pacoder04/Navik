@@ -17,12 +17,11 @@ export default function Login() {
       const { token } = response.data;
       console.log('Login successful. Token:', token);
 
-      // Save token to localStorage
+      // sacuvaj token u local storage
       localStorage.setItem('token', token);
 
-      // Redirect or update UI after successful login
-      // For example, redirect to a dashboard page
-      window.location.href = '/dashboard'; // Replace with your actual route
+      // idi u dashboard
+      window.location.href = '/dashboard'; // treba da se promjeni
 
     } catch (error) {
       console.error('Login failed:', error.response ? error.response.data : error.message);
