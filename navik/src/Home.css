@@ -1,0 +1,115 @@
+/* src/Home.css */
+
+body {
+    --font-family-body: '__Inter_8897a6', '__Inter_Fallback_8897a6', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-sans: '__graphik_639b95', '__graphik_Fallback_639b95', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-heading: '__graphik_639b95', '__graphik_Fallback_639b95', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-serif: '__caecilia_1ee377', '__caecilia_Fallback_1ee377', serif;
+    --font-family-handwritten: '__espa_427886', '__espa_Fallback_427886', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-handwritten-base: '__Shantell_Sans_5b6217', Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  header .btn {
+    background: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  header .btn:hover {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  section#features {
+    padding: 60px 0;
+    background: #f8f9fa;
+  }
+  
+  section#features h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  section#features .feature {
+    margin-bottom: 30px;
+  }
+  
+  section#features .feature img {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  section#features .feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  section#features .feature p {
+    font-size: 1.1em;
+  }
+  
+  section#testimonials {
+    padding: 60px 0;
+    background: #fff;
+  }
+  
+  section#testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  section#testimonials .testimonial {
+    margin-bottom: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section#testimonials .testimonial p {
+    font-size: 1.1em;
+  }
+  
+  footer {
+    background: #b3b6ba;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #020816;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  footer .legal a {
+    color: #f4f5f7;
+  }
+  

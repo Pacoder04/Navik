@@ -1,0 +1,38 @@
+/* src/Login.css */
+
+body {
+    --font-family-body: '__Inter_8897a6', '__Inter_Fallback_8897a6', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-sans: '__graphik_639b95', '__graphik_Fallback_639b95', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-heading: '__graphik_639b95', '__graphik_Fallback_639b95', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-serif: '__caecilia_1ee377', '__caecilia_Fallback_1ee377', serif;
+    --font-family-handwritten: '__espa_427886', '__espa_Fallback_427886', Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-handwritten-base: '__Shantell_Sans_5b6217', Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .card {
+    margin: auto;
+    box-shadow:1px 1px 1px  1px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .login-background {
+    background-image: url('./LoginBackround.png');
+    background-size: cover;
+    background-position: center;
+  } 
+  
+  .btn btn-primary{
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+
+
+    
+  }
+  
